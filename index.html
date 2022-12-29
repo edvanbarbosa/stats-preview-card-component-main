@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main>
+      <section class="card_container">
+        <section class="text_container">
+          <div class="h1_container">
+            <h1>Get <span>insights</span> that help,<br> your business grow.</h1>
+          </div>
+          <div class="p_container">
+            <p>
+              Discover the benefits of data analytics and make<br> better decisions regarding revenue, customer <br>
+              experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="numbers_container">
+            <p><span>10k+</span><br> companies</p>
+            <p><span>314 </span> <br>templates</p>
+            <p><span>12m+</span><br> queries</p>
+          </div>
+        </section>
+        <section class="img_container">
+          <div class="filtro_roxo"></div>
+          <img src="images/image-header-desktop.jpg" alt="image-header-desktop">
+        </section>
+      </section>
+  </main>
 </body>
 </html>
